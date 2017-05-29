@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Colette Rohrdanz Profiles tagger Sample",
+      "payload": {
+        "match": {
+          "user-name": "Colette Rohrdanz",
+          "url": "communities"
+        },
+        "include-files": [
+          "samples/tagger/ConnectionsCloudAutoTagger.js"
+        ]
+      },
+      "name": "Colette Rohrdanz Profiles Tagger Extension",
+      "type": "com.ibm.communities"
+    }
+  ],
+  "name": "Colette Rohrdanz Profiles tagger Sample",
+  "description": "Colette Rohrdanz Profiles Tagger Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "Colette Rohrdanz Profiles Tagger Sample"
+}
