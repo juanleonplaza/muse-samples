@@ -695,7 +695,8 @@
         contentTextDiv.id = "contentSentences";
         contentTextDiv.appendChild(contentSentenceNavTitle);
         var sentencesObj = bodyJSONObj["sentences_tone"];
-        for ( i = 0 ; i < sentencesObj.length ; i++ )
+        if(sentencesObj != undefined){
+	for ( i = 0 ; i < sentencesObj.length ; i++ )
         {
             var sentenceP = document.createElement("p");
             sentenceP.style = "background-color: white;color:black;"; // default to black text on white. Colors are changed upon click on the category.
@@ -704,6 +705,7 @@
             sentenceP.onclick = function(event) { showSentenceDetail(bodyJSONObj, event.target.id); };
             contentTextDiv.appendChild(sentenceP);
         }
+	}
 
         // --- Sentence Details ---
         var sentenceDetailsDiv = document.createElement("div");
