@@ -44,7 +44,7 @@ if(typeof(dojo) != "undefined") {
                 dojo.query(".lotusMeta")[2].textContent="This community can have members from outside your organization but only members who have signed an NDA.";
 				dojo.query(".lotusMeta")[2].style="color:#ff0000";
 				
-				dojo.place('<img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Circle-style-warning.svg/1024px-Circle-style-warning.svg.png" width="20" height="20"></img>',
+				dojo.place('<img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Circle-style-warning.svg/1024px-Circle-style-warning.svg.png" width="50" height="50"></img>',
                 dojo.query(".lotusMeta")[2],"append");
 
 
