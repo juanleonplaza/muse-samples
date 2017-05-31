@@ -1,0 +1,23 @@
+{
+  "extensions": [
+    {
+      "application": "All Community Sample",
+      "payload": {
+        "match": {
+          "url": "communityUuid=[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+        },
+        "include-files": [
+          "samples/communities/allCommunities.js"
+        ]
+      },
+      "name": "Community Extension",
+      "type": "com.ibm.communities"
+    }
+  ],
+  "name": "All Community Sample",
+  "description": "Community Customization Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "Community Customization Sample"
+}

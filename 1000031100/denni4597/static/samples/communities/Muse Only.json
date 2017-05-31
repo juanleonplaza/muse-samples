@@ -1,0 +1,23 @@
+{
+  "extensions": [
+    {
+      "application": "Muse Only All Community Sample",
+      "payload": {
+        "match": {
+          "url": "communityUuid=49e753b3-53e9-456c-a177-b87074737f5c"
+        },
+        "include-files": [
+          "samples/communities/museCommunityOnly.js"
+        ]
+      },
+      "name": "Muse Community Only Extension",
+      "type": "com.ibm.communities"
+    }
+  ],
+  "name": "Muse Only All Community Sample",
+  "description": "Muse Only Community Customization Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "Muse Only Community Customization Sample"
+}
