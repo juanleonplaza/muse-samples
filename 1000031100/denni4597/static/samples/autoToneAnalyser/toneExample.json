@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Colette Rohrdanz Profiles Tone Sample",
+      "payload": {
+        "match": {
+          "user-name": "Colette Rohrdanz",
+          "url": "homepage"
+        },
+        "include-files": [
+          "samples/toneAnalyser/ConnectionsCloudGeneralToneAnalysis.user.js"
+        ]
+      },
+      "name": "Colette Rohrdanz Profiles Tone Extension",
+      "type": "com.ibm.homepage"
+    }
+  ],
+  "name": "Colette Rohrdanz Profiles Tone Sample",
+  "description": "Colette Rohrdanz Profiles Tone Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "Colette Rohrdanz Profiles Tone Sample"
+}
