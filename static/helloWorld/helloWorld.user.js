@@ -51,11 +51,11 @@ if(typeof(dojo) != "undefined") {
 
 		var updatesDescription = document.getElementById("asDesc");
 		var originalText = updatesDescription.textContent;
-		updatesDescription.textContent="Hello test " + lconn.homepage.userName + " " + originalText;
+		updatesDescription.textContent="Hello Cathal " + lconn.homepage.userName + " " + originalText;
 		updatesDescription.style="color:#ff0000";
 
             	dojo.query("span.shareSome-title")[0].textContent=
-				"Hello test"+lconn.homepage.userName+" -";
+				"Hello Cathal"+lconn.homepage.userName+" -";
 
             }, ".lotusStreamTopLoading div.loaderMain.lotusHidden");
 
