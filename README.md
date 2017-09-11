@@ -1,2 +1,2 @@
 # middleware-proxy-customizations
-Repo for IBM Connections workshop test
+Repo for IBM Connections worksho
